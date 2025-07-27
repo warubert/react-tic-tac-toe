@@ -1,0 +1,49 @@
+# dependências
+node_modules/
+
+# build
+dist/
+build/
+
+# arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor e sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# testes
+coverage/
+
+# cache
+.cache/
+.next/
+out/
+*.tsbuildinfo
+
+# arquivos gerados por build tools
+*.log
+*.tgz
+
+# arquivos de lock (opcional, caso deseje evitar conflitos entre devs)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
